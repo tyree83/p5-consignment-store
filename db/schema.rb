@@ -23,7 +23,7 @@ ActiveRecord::Schema.define(version: 2021_01_13_152439) do
 
   create_table "order_items", force: :cascade do |t|
     t.integer "quantity", default: 0, null: false
-    t.decimal "price", precision: 15, scale: 2, null: false
+    t.decimal "price", precision: 10, scale: 2, null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.bigint "order_id", null: false
@@ -33,7 +33,7 @@ ActiveRecord::Schema.define(version: 2021_01_13_152439) do
   create_table "orders", force: :cascade do |t|
     t.string "first_name"
     t.string "last_name", null: false
-    t.decimal "sub_total", precision: 15, scale: 2, null: false
+    t.decimal "sub_total", precision: 10, scale: 2, null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
@@ -49,7 +49,7 @@ ActiveRecord::Schema.define(version: 2021_01_13_152439) do
 
   create_table "product_variants", force: :cascade do |t|
     t.string "title", null: false
-    t.decimal "price", precision: 15, scale: 2, null: false
+    t.decimal "price", precision: 10, scale: 2, null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.bigint "product_id", null: false
@@ -59,7 +59,7 @@ ActiveRecord::Schema.define(version: 2021_01_13_152439) do
   create_table "products", force: :cascade do |t|
     t.string "title", null: false
     t.text "description"
-    t.decimal "price", precision: 15, scale: 2, null: false
+    t.decimal "price", precision: 10, scale: 2, null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

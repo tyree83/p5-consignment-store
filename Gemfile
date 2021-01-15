@@ -13,6 +13,10 @@ gem 'puma', '~> 5.0'
 # Use Faker for seeds.rb
 gem 'faker'
 
+gem 'uglifier'
+
+gem 'coffee-rails'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '>= 6'
 # Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker

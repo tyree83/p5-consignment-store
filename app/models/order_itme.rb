@@ -1,2 +1,0 @@
-class OrderItme < ApplicationRecord
-end

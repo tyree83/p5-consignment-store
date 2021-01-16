@@ -1,0 +1,2 @@
+class LastNameIsntRequired < ApplicationRecord
+end

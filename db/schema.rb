@@ -10,10 +10,13 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+
 ActiveRecord::Schema.define(version: 2021_01_15_224232) do
+
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
 
   create_table "categories", force: :cascade do |t|
     t.string "title", limit: 100, null: false
@@ -73,4 +76,5 @@ ActiveRecord::Schema.define(version: 2021_01_15_224232) do
   add_foreign_key "product_categories", "categories", name: "fk_product_categories_to_categories"
   add_foreign_key "product_categories", "products", name: "fk_product_categories_to_products"
   add_foreign_key "product_variants", "products", name: "fk_product_variants_to_product"
+
 end

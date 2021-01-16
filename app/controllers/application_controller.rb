@@ -17,3 +17,4 @@ class ApplicationController < ActionController::Base
     @cart_token = session[:cart_token]
   end
 end
+

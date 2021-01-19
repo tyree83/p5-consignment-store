@@ -13,3 +13,28 @@
  *= require_tree .
  *= require_self
  */
+
+ body {
+   background-color: slategray;
+   color: white;
+ }
+
+ .is-tall {
+  display: flex;
+  min-height: 75vh;
+  flex-direction: column;
+}
+
+.is-tall-container {
+  flex: 1;
+}
+
+.img {
+  height: 240;
+  width: 720;
+}
+
+.product {
+  flex-direction: row;
+  flex-wrap:inherit;
+}

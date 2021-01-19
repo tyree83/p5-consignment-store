@@ -1,13 +1,25 @@
-<h2>Categories (<%= @categories.length %>)</h2>
-
-<ol>
-<% @categories.each do |category| %>
-  <li>
- <%= link_to category_products_path(category) do %>
-        <%= category.title %>
-        (<%= category.products_count %> products)
-      <% end %>
-
-  </li>
-  <% end %>
-</ol>
+<div class="wrapper">
+  <div class="container">
+  <h1 class="title">
+    Categories (<%= @categories.length %>)
+  </h1>
+    <div class="tile is-ancestor">
+      <div class="tile is-vertical is-8">
+        <div class="tile">
+          <div class="tile is-parent is-vertical">
+          <ol class="tile is-child notification is-primary">
+            <% @categories.each do |category| %>
+            <li >
+              <%= link_to category_products_path(category) do %>
+              <%= category.title %>
+              (<%= category.products_count %> products)
+            <% end %>
+            </li>
+            <% end %>
+          </ol>  
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>

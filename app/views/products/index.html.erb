@@ -1,12 +1,12 @@
-<div class="section">
-  <div class="wrapper">
+<div class="wrapper">
+  <div class="">
     <h2>
       <%= link_to "Categories", root_path %> /
       <%= @category.title %> /
       Products
     </h2>
-  </div class="tile is-ancestor">
-      <div class="products">
+  </div class="container">
+      <div class="card__description">
 
         <% @products.each do |product| %>
         <%= form_tag order_items_path do %>

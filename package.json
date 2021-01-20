@@ -1,9 +1,24 @@
 {
-  "dependencies": {
-    "@activeadmin/activeadmin": "^2.9.0",
-    "@rails/webpacker": "5.2.1"
+  "name": "consignment_store",
+  "version": "1.0.0",
+  "description": "This README would normally document whatever steps are necessary to get the application up and running.",
+  "main": "babel.config.js",
+  "directories": {
+    "lib": "lib"
   },
-  "devDependencies": {
-    "webpack-dev-server": "^3.11.2"
-  }
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tyree83/p5-consignment-store.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tyree83/p5-consignment-store/issues"
+  },
+  "homepage": "https://github.com/tyree83/p5-consignment-store#readme"
 }

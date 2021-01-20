@@ -47,4 +47,6 @@ PRODUCTS_COUNT.times do
 
   product.save!
 
+AdminUser.create!(email: 'admin@example.com', password: '12345678', password_confirmation: '12345678') if Rails.env.development?
+
 end

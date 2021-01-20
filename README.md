@@ -4,11 +4,14 @@
 a simple web application where you can shop for furniture sold in-store.
 
 ## Technologies Used
-* Ruby on Rails
+* Ruby
+* Rails
+* HTML
+* JavaScript
+* CSS
 * Jquery
 * ActiveAdmin Gem
 * Faker Gem
-* JavaScript
 * Trello Board
 * ZiteBoard
 * Netlify

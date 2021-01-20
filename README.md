@@ -6,6 +6,7 @@ a simple web application where you can shop for furniture sold in-store.
 ## Technologies Used
 * Ruby
 * Rails
+* PostgreSQL
 * HTML
 * JavaScript
 * CSS

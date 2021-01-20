@@ -1,2 +1,0 @@
-class LastNameIsntRequired < ApplicationRecord
-end

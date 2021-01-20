@@ -9,6 +9,7 @@ gem 'rails', '~> 6.1.1'
 gem 'pg', '~> 1.1'
 
 # gem 'mysql2'
+gem "jekyll-watch"
 
 # Use Puma as the app server
 gem 'puma', '~> 5.0'

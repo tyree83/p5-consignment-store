@@ -1,0 +1,17 @@
+
+<div class="wrapper">
+  <div class="container">
+    <div class="gallery">
+    <h1>Categories (<%= @categories.length %>)</h1>
+      <div class="card__description">
+            <% @categories.each do |category| %>
+            <%= link_to category_products_path(category) do %>
+            <%= category.title %>
+            (<%= category.products_count %> products)
+            <% end %>
+            <% end %>  
+      </div>  
+    </div>
+  </div>
+</div>
+

@@ -1,0 +1,29 @@
+<div class="wrapper">
+  <div class="">
+    <h2>
+      <%= link_to "Categories", root_path %> /
+      <%= @category.title %> /
+      Products
+    </h2>
+  </div class="container">
+      <div class="card__description">
+
+        <% @products.each do |product| %>
+        <%= form_tag order_items_path do %>
+        <%= product.title %> (<%= number_to_currency product.price %>)
+        <figure class="image is-128x128">
+          <img src="https://bulma.io/images/placeholders/640x480.png">
+        </figure>
+          <%= hidden_field_tag :product_id, product.id %>
+          <%= number_field_tag :quantity, 1 %>
+          <%= submit_tag "Add to Cart" %>
+          <% end %>
+          <% product.variants.each do |variant| %>
+          <%= variant.title %> (<%= number_to_currency variant.price %>)
+          <% end %> 
+          <% end %>
+        </div>
+ 
+      </div>
+  </div>
+</div>

@@ -255,9 +255,6 @@ GEM
     thor (1.0.1)
     thread_safe (0.3.6)
     tilt (2.0.10)
-    turbolinks (5.2.1)
-      turbolinks-source (~> 5.2)
-    turbolinks-source (5.2.0)
     tzinfo (2.0.4)
       concurrent-ruby (~> 1.0)
     verbs (2.3.1)
@@ -288,6 +285,7 @@ DEPENDENCIES
   activeadmin
   bcrypt (~> 3.1.7)
   bootsnap (>= 1.4.4)
+  bundler
   byebug
   devise
   faker
@@ -302,7 +300,6 @@ DEPENDENCIES
   sass-rails (>= 6)
   spring
   spring-watcher-listen
-  turbolinks (~> 5)
   tzinfo-data
   web-console (>= 4.1.0)
   webpacker (~> 5.0)
@@ -311,4 +308,4 @@ RUBY VERSION
    ruby 2.5.1p57
 
 BUNDLED WITH
-   2.2.4
+   2.2.7

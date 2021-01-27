@@ -251,6 +251,7 @@ DEPENDENCIES
   activeadmin
   bcrypt (~> 3.1.7)
   bootsnap (>= 1.4.4)
+  bundler
   byebug
   devise
   faker
@@ -272,4 +273,4 @@ RUBY VERSION
    ruby 2.5.1p57
 
 BUNDLED WITH
-   2.2.4
+   2.2.7

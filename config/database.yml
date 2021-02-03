@@ -82,5 +82,5 @@ test:
 production:
   <<: *default
   database: consignment_store_production
-  username: consignment_store
-  password: <%= ENV['CONSIGNMENT_STORE_DATABASE_PASSWORD'] %>
+  username: admin@example.com
+  password: <%= ENV['12345678'] %>

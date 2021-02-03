@@ -8,7 +8,7 @@ gem 'rails', '~> 6.1.1'
 # Use postgresql as the database for Active Record
 
 
-gem 'bundler'
+
 # gem 'mysql2'
 gem "jekyll-watch"
 

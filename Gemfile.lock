@@ -249,10 +249,8 @@ DEPENDENCIES
   active_record-events
   activeadmin
   bcrypt (~> 3.1.7)
-
   bootsnap
   bundler (~> 2.2, >= 2.2.4)
-
   byebug
   devise
   faker

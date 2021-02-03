@@ -110,6 +110,8 @@ GEM
       responders (>= 2, < 4)
     jbuilder (2.11.2)
       activesupport (>= 5.0.0)
+    jekyll-watch (2.2.1)
+      listen (~> 3.0)
     jquery-rails (4.4.0)
       rails-dom-testing (>= 1, < 3)
       railties (>= 4.2.0)
@@ -218,9 +220,6 @@ GEM
       sprockets (>= 3.0.0)
     thor (1.1.0)
     tilt (2.0.10)
-    turbolinks (5.2.1)
-      turbolinks-source (~> 5.2)
-    turbolinks-source (5.2.0)
     tzinfo (2.0.4)
       concurrent-ruby (~> 1.0)
     verbs (2.3.1)
@@ -250,12 +249,15 @@ DEPENDENCIES
   active_record-events
   activeadmin
   bcrypt (~> 3.1.7)
+
   bootsnap
   bundler (~> 2.2, >= 2.2.4)
+
   byebug
   devise
   faker
   jbuilder (~> 2.7)
+  jekyll-watch
   listen (~> 3.3)
   pg (~> 1.1)
   puma (~> 5.0)
@@ -264,7 +266,6 @@ DEPENDENCIES
   sass-rails (>= 6)
   spring
   spring-watcher-listen
-  turbolinks (~> 5)
   tzinfo-data
   web-console (>= 4.1.0)
   webpacker (~> 5.0)

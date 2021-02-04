@@ -38,7 +38,7 @@ gem 'devise'
 gem 'activeadmin'
 gem 'active_record-events'
 
-gem 'bundler', '~> 2.2', '>= 2.2.4'
+gem 'bundler', '~> 2.2', '>= 2.2.7'
 
 #gem 'netlify'
 # Use Active Storage variant

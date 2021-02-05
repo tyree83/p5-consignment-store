@@ -3,6 +3,8 @@
 # WMC Consignment Store
 a simple web application where you can shop for furniture sold in-store.
 
+See the deployed app [here!](https://web-store-wmc.herokuapp.com/)
+
 ## Technologies Used
 * Ruby
 * Rails

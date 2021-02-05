@@ -52,6 +52,11 @@ gem 'bundler', '2.1.2'
 gem 'bootsnap', '>= 1.4.2', require: false
 
 
+# Use SCSS for stylesheets
+gem 'sass-rails'
+# Use Uglifier as compressor for JavaScript assets
+gem 'uglifier'
+
 #gem 'dotenv-rails', groups: [:development, :test]
 
 

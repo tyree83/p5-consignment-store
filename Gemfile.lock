@@ -89,6 +89,7 @@ GEM
       responders
       warden (~> 1.2.3)
     erubi (1.10.0)
+    execjs (2.7.0)
     faker (2.15.1)
       i18n (>= 1.6, < 2)
     ffi (1.14.2)
@@ -139,10 +140,12 @@ GEM
     method_source (1.0.0)
     mimemagic (0.3.5)
     mini_mime (1.0.2)
+    mini_portile2 (2.5.0)
     minitest (5.14.3)
     msgpack (1.4.2)
-    nio4r (2.5.4)
-    nokogiri (1.11.1-x86_64-linux)
+    nio4r (2.5.5)
+    nokogiri (1.11.1)
+      mini_portile2 (~> 2.5.0)
       racc (~> 1.4)
     orm_adapter (0.5.0)
     pg (1.2.3)
@@ -190,6 +193,16 @@ GEM
       actionpack (>= 5.0)
       railties (>= 5.0)
     ruby2_keywords (0.0.4)
+    sass-rails (6.0.0)
+      sassc-rails (~> 2.1, >= 2.1.1)
+    sassc (2.4.0)
+      ffi (~> 1.9)
+    sassc-rails (2.1.2)
+      railties (>= 4.0.0)
+      sassc (>= 2.0)
+      sprockets (> 3.0)
+      sprockets-rails
+      tilt
     spring (2.1.1)
     spring-watcher-listen (2.0.1)
       listen (>= 2.7, < 4.0)
@@ -205,8 +218,11 @@ GEM
       json
       sprockets
     thor (1.1.0)
+    tilt (2.0.10)
     tzinfo (2.0.4)
       concurrent-ruby (~> 1.0)
+    uglifier (4.2.0)
+      execjs (>= 0.3.0, < 3)
     verbs (2.3.1)
       activesupport (>= 2.3.4)
       i18n
@@ -234,10 +250,12 @@ DEPENDENCIES
   pg (>= 0.18, < 2.0)
   puma (~> 4.1)
   rails (~> 6.1.1)
+  sass-rails
   spring
   spring-watcher-listen (~> 2.0.0)
   sprockets-webpackit (~> 0.1.2)
   tzinfo-data
+  uglifier
 
 RUBY VERSION
    ruby 2.5.1p57

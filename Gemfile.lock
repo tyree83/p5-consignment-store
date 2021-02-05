@@ -147,11 +147,13 @@ GEM
     method_source (1.0.0)
     mimemagic (0.3.5)
     mini_mime (1.0.2)
+    mini_portile2 (2.5.0)
     minitest (5.14.3)
     msgpack (1.4.2)
     multi_json (1.15.0)
     nio4r (2.5.4)
-    nokogiri (1.11.1-x86_64-linux)
+    nokogiri (1.11.1)
+      mini_portile2 (~> 2.5.0)
       racc (~> 1.4)
     orm_adapter (0.5.0)
     pg (1.2.3)
@@ -232,14 +234,14 @@ GEM
     zeitwerk (2.4.2)
 
 PLATFORMS
-  x86_64-linux
+  ruby
 
 DEPENDENCIES
   active_record-events
   activeadmin
   bcrypt (~> 3.1.7)
   bootsnap (>= 1.4.2)
-  bundler (~> 2.2, >= 2.2.7)
+  bundler (= 2.1.2)
   byebug
   devise
   faker
@@ -258,4 +260,4 @@ RUBY VERSION
    ruby 2.5.1p57
 
 BUNDLED WITH
-   2.2.8
+   2.1.2

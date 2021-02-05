@@ -40,6 +40,8 @@ gem 'devise'
 gem 'activeadmin'
 gem 'active_record-events'
 
+gem 'sprockets-webpackit', '~> 0.1.2'
+
 gem 'bundler', '2.1.2'
 
 #gem 'netlify'

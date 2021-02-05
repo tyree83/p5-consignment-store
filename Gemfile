@@ -18,6 +18,7 @@ gem 'puma', '~> 4.1'
 # Use Faker for seeds.rb
 gem 'faker'
 
+gem 'heroku_san'
 # Use SCSS for stylesheets
 #gem 'sass-rails', '>= 6'
 

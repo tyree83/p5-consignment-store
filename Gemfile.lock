@@ -76,7 +76,6 @@ GEM
       activesupport (>= 3.0.0, < 6.2)
       ruby2_keywords (>= 0.0.2, < 1.0)
     bcrypt (3.1.16)
-    bindex (0.8.1)
     bootsnap (1.7.1)
       msgpack (~> 1.0)
     builder (3.2.4)
@@ -89,10 +88,6 @@ GEM
       railties (>= 4.1.0)
       responders
       warden (~> 1.2.3)
-    dotenv (2.7.6)
-    dotenv-rails (2.7.6)
-      dotenv (= 2.7.6)
-      railties (>= 3.2)
     erubi (1.10.0)
     faker (2.15.1)
       i18n (>= 1.6, < 2)
@@ -150,12 +145,10 @@ GEM
       racc (~> 1.4)
     orm_adapter (0.5.0)
     pg (1.2.3)
-    puma (5.2.0)
+    puma (4.3.7)
       nio4r (~> 2.0)
     racc (1.5.2)
     rack (2.2.3)
-    rack-mini-profiler (2.3.1)
-      rack (>= 1.2.0)
     rack-proxy (0.6.5)
       rack
     rack-test (1.1.0)
@@ -198,16 +191,6 @@ GEM
       actionpack (>= 5.0)
       railties (>= 5.0)
     ruby2_keywords (0.0.4)
-    sass-rails (6.0.0)
-      sassc-rails (~> 2.1, >= 2.1.1)
-    sassc (2.4.0)
-      ffi (~> 1.9)
-    sassc-rails (2.1.2)
-      railties (>= 4.0.0)
-      sassc (>= 2.0)
-      sprockets (> 3.0)
-      sprockets-rails
-      tilt
     semantic_range (2.3.1)
     spring (2.1.1)
     spring-watcher-listen (2.0.1)
@@ -221,7 +204,6 @@ GEM
       activesupport (>= 4.0)
       sprockets (>= 3.0.0)
     thor (1.1.0)
-    tilt (2.0.10)
     tzinfo (2.0.4)
       concurrent-ruby (~> 1.0)
     verbs (2.3.1)
@@ -229,11 +211,6 @@ GEM
       i18n
     warden (1.2.9)
       rack (>= 2.0.9)
-    web-console (4.1.0)
-      actionview (>= 6.0.0)
-      activemodel (>= 6.0.0)
-      bindex (>= 0.4.0)
-      railties (>= 6.0.0)
     webpacker (5.2.1)
       activesupport (>= 5.2)
       rack-proxy (>= 0.6.1)
@@ -251,28 +228,23 @@ DEPENDENCIES
   active_record-events
   activeadmin
   bcrypt (~> 3.1.7)
-  bootsnap
+  bootsnap (>= 1.4.2)
   bundler (~> 2.2, >= 2.2.7)
   byebug
   devise
-  dotenv-rails
   faker
   jbuilder (~> 2.7)
-  listen (~> 3.3)
-  pg (~> 1.1)
-  puma (~> 5.0)
-  rack-mini-profiler (~> 2.0)
+  listen (~> 3.2)
+  pg (>= 0.18, < 2.0)
+  puma (~> 4.1)
   rails (~> 6.1.1)
-  rake
-  sass-rails (>= 6)
   spring
-  spring-watcher-listen
+  spring-watcher-listen (~> 2.0.0)
   tzinfo-data
-  web-console (>= 4.1.0)
   webpacker (~> 5.0)
 
 RUBY VERSION
    ruby 2.5.1p57
 
 BUNDLED WITH
-   2.2.7
+   2.2.8
